@@ -2,31 +2,31 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.firstSection {
+.section-one {
     background-color: #FAFAFA;
     height: 692px;
     width: 100%;
 }
 
-.firstSection__navbar {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
 }
 
-.firstSection__navbar--logo {
+.navbar__logo {
     color: #252B24;
     font-weight: 700;
     font-size: 24px;
     letter-spacing: 0.1px;
 }
 
-.firstSection__navbar--nav {
+.nav__items {
     margin-left: 30vw;
 }
 
-.firstSection__navbar--links__text {
+.nav__items--list {
     color: #737373;
     font-weight: 600;
     font-size: 14px;
@@ -35,43 +35,45 @@ body {
     margin-right: 25px;
 }
 
-.firstSection__navbar--links__icon {
+.nav__icons {
+    width: 18px;
+    height: 18px;
+}
+
+.nav__icons--menu {
     width: 18px;
     height: 18px;
     margin-right: 25px;
 }
 
-.firstSection__navbar--link__icon {
-    width: 18px;
-    height: 18px;
-}
-
-.firstSection__content {
-    width: 30%;
+.section-one__content {
+    width: 50%;
     margin: 0 auto;
     margin-top: 15vh;
     text-align: center;
 }
 
-.firstSection__content--p1 {
+.section-one__content--title {
     color: #252B24;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 0.2px;
 }
 
-.firstSection__content--p2 {
+.section-one__content--description {
     color: #737373;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.2px;
+    line-height: 30px;
+    margin-top: -5px;
 }
 
-.firstSection__content--btns {
-    margin-top: 5vh;
+.section-one__btns {
+    margin-top: 4vh;
 }
 
-.firstSection__content--btns__btn1 {
+.section-one__btns--btn1 {
     color: white;
     font-weight: 700;
     font-size: 14px;
@@ -82,7 +84,7 @@ body {
     border-radius: 37px;
 }
 
-.firstSection__content--btns__btn2 {
+.section-one__btns--btn2 {
     color: #00A0C1;
     font-weight: 700;
     font-size: 14px;
@@ -93,35 +95,36 @@ body {
     border-radius: 37px;
 }
 
-.secondSection {
+.section-two {
     height: 813px;
-    /* background-color: lavender; */
 }
 
-.secondSection__content {
+.section-two__content {
     margin: 0 auto;
     width: 70%;
     padding: 3vh;
+    margin-top: 5vh;
     text-align: center;
 }
 
-.secondSection__content--p1 {
+.section-two__content--title {
     color: #252B24;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
     letter-spacing: 0.2px;
     text-transform: uppercase;
 }
 
-.secondSection__content--p2 {
+.section-two__content--description {
     color: #737373;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.2px;
+    line-height: 20px;
     margin-top: -30px;
 }
 
-.secondSection__content--cards {
+.section-two__cards {
     display: inline-grid;
     grid-template-columns: auto auto auto;
 }
