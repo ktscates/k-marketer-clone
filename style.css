@@ -129,7 +129,7 @@ body {
     grid-template-columns: auto auto auto;
 }
 
-.secondSection__content--cards__card {
+.card__item {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -141,73 +141,167 @@ body {
     margin: 20px;
 }
 
-.secondSection__content--cards__card--tittle {
+.card__item--tittle {
     color: #252B24;
     font-weight: 700;
     font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.1px;
-    margin-top: -5vh;
+    margin-left: 20px;
+    margin-top: -150px;
 }
 
-.secondSection__content--cards__card--paragraph {
+.card__item--paragraph {
     color: #737373;
     font-weight: 500;
     font-size: 14px;
+    line-height: 20px;
     letter-spacing: 0.2px;
 }
 
-.thirdSection {
+.section-three {
     height: 791px;
     /* background-color: bisque; */
     text-align: center;
     padding: 15px;
 }
 
-.thirdSection__title {
+.section-three__title {
     color: #252B24;
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 0.2px;
     line-height: 57px;
+    margin-bottom: 50px;
 }
 
-.thirdSection__p {
+.section-three__description {
     color: #737373;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.2px;
     line-height: 20px;
     margin-top: -2vh;
+    margin-bottom: 50px;
 }
 
-.thirdSection__video {
-    
-}
-
-.thirdSection__picture {
+.section-three__video {
     position: relative;
 }
 
-.thirdSection__icon {
+
+.video__icon {
     position: absolute;
-    text-align: center;
+    left: 48%;
+    top: 37%;
+    bottom: 50%;
+    right: 50%;
 }
 
-.fifthSection {
+.section-four {
+    height: 591px;
+    background-color: #F3F3F3;
+    padding: 50px;
+}
+
+.section-four__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: center;
+    margin-bottom: -3px;
+}
+
+.section-four__description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 80px;
+}
+
+.cards__testimonial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cards__testimonial--card-item {
+    background-color: white;
+    margin: 15px;
+    padding: 30px 35px;
+}
+
+.card-item__stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card-item__testimony {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.card-item__desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-item__desc--img {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.card-item__desc--info__name {
+    color: #FFA62B;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin-left: 20px;
+}
+
+.card-item__desc--info__prof {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.section-five {
     /* background-color: aqua; */
     height: 732px;
     padding: 20px;
     text-align: center;
 }
 
-.fifthSection__title {
+.section-five--title {
     color: #252B24;
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 0.1px;
 }
 
-.fifthSection__p {
+.section-five--description {
     color: #737373;
     font-weight: 500;
     font-size: 14px;
@@ -215,7 +309,7 @@ body {
     margin-top: -3vh;
 }
 
-.fifthSection__cards {
+.section-five__cards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -223,7 +317,7 @@ body {
     width: 60%;
 }
 
-.fifthSection__cards--card {
+.cards__card {
     background-color: white;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
@@ -235,7 +329,7 @@ body {
     margin-top: 5vh;
 }
 
-.fifthSection__cards--card__info--name {
+/* .fifthSection__cards--card__info--name {
     color: #252B24;
     font-weight: 700;
     font-size: 16px;
@@ -260,4 +354,65 @@ body {
     background-size: cover;
     height: 821px;
     padding: 20px;
+} */
+
+.section-seven {
+    height: 142px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.agency--title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: -10px;
+}
+
+.agency--desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.button--contact {
+    background: #FFA62B;
+    border-radius: 5px;
+    align-items: center;
+    padding: 15px 40px;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    border: none;
+}
+
+.footer {
+    height: 74px;
+    background-color: #16697A;
+}
+
+.footer__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
 }
