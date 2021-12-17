@@ -1,0 +1,348 @@
+body {
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.section-one {
+    background-color: #FAFAFA;
+    height: 692px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navbar__logo {
+    color: #252B24;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+}
+
+.nav__items {
+    margin-left: 30vw;
+}
+
+.nav__item {
+    color: #737373;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.nav__icons {
+    width: 18px;
+    height: 18px;
+}
+
+.nav__icons--menu {
+    margin-right: 25px;
+}
+
+.content-one {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.content-one__title {
+    color: #252B24;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0.2px;
+}
+
+.content-one__description {
+    color: #737373;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+    margin-top: -5px;
+}
+
+.content-one__buttons {
+    margin-top: 4vh;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    padding: 10px 36px;
+    border-radius: 37px;
+}
+
+.content-one__buttons--btn1 {
+    color: white;
+    background-color: #FFA62B;
+    padding: 10px 36px;
+    border: none;
+    
+}
+
+.content-one__buttons--btn2 {
+    color: #00A0C1;
+    background-color: transparent;
+    border: 1px solid #00A0C1;
+    border-radius: 37px;
+}
+
+.section-two {
+    height: 813px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 70%;
+    padding: 3vh;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.content__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.content__title--uppercase{
+    text-transform: uppercase;
+}
+
+.content__title--agency {
+    font-size: 24px !important;
+    line-height: 32px !important;
+}
+
+.content--center {
+    text-align: center;
+}
+
+.content__description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.cards {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    padding: 35px 40px;
+    margin: 20px;
+}
+
+.card-item__tittle {
+    color: #252B24;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-left: 20px;
+    margin-top: -150px;
+}
+
+.card-item__paragraph {
+    color: #737373;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.section-three {
+    height: 791px;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-three__video {
+    position: relative;
+}
+
+
+.video__icon {
+    position: absolute;
+    left: 48%;
+    top: 37%;
+    bottom: 50%;
+    right: 50%;
+}
+
+.section-four {
+    height: 591px;
+    background-color: #F3F3F3;
+    padding: 50px;
+}
+
+
+.cards__testimony {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.testimony__card-item {
+    background-color: white;
+    margin: 15px;
+    padding: 30px 35px;
+}
+
+.card-item__stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card-item__testimony {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.card-item__desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-item__img {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.card-item__info-name {
+    color: #FFA62B;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin-left: 20px;
+}
+
+.card-item__info-prof {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.section-five {
+    height: 732px;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-five__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.cards__card {
+    background-color: white;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 328px;
+    height: 373px;
+    margin-top: 5vh;
+}
+
+/* .fifthSection__cards--card__info--name {
+    color: #252B24;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+
+.fifthSection__cards--card__info--prof {
+    color: #737373;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin-top: -0.5vh;
+}
+
+.fifthSection__cards--card__info--socials {
+    margin-right: 0.5vw;
+}
+
+.sixthSection {
+    background-image: url("./img/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 821px;
+    padding: 20px;
+} */
+
+.section-seven {
+    height: 142px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact__button {
+    background: #FFA62B;
+    border-radius: 5px;
+    align-items: center;
+    padding: 15px 40px;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    border: none;
+}
+
+.footer {
+    height: 74px;
+    background-color: #16697A;
+}
+
+.footer__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
